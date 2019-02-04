@@ -1,9 +1,10 @@
 {
-  "name": "Webpack Template",
-  "version": "0.1.0",
+  "name": "template_webpack",
+  "version": "0.1.1",
   "author": "Rémi Gavin <remi.gavin38@gmail.com>",
   "scripts": {
-    "dev": "NODE_ENV=dev webpack"
+    "dev": "webpack --mode=development",
+    "production": "webpack --mode=production"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
